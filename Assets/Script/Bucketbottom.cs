@@ -59,7 +59,7 @@ public class Bucketbottom : MonoBehaviour {
 			Boom.transform.position=p2;
 			Boom.renderer.enabled=true;
 			Boom.animation.Play();
-
+			Boom.audio.Play();
 			LifePoint-=20;
 			LifeBar.transform.localScale = new Vector3((float)LifePoint/100, LifeBar.transform.localScale.y, LifeBar.transform.localScale.z);
 
@@ -74,8 +74,21 @@ public class Bucketbottom : MonoBehaviour {
 			return;
 		}
 
+		if (collider.gameObject.name.Contains("Mcase"))
+		{
+			print ("X" + collider.gameObject.name.Contains("Mcase"));
+			print ("M " +collider.gameObject.name);
+			LifePoint=100;
+			LifeBar.transform.localScale = new Vector3((float)LifePoint/100, LifeBar.transform.localScale.y, LifeBar.transform.localScale.z);
+			GameObject.Destroy(collider.gameObject);
+			return;
+		}
+
 
 		int value = collider.gameObject.GetComponent<FruitValue>().Value;
+
+	//	if (value!=0)
+	    //{
 		score.TotalScore += value;
 
 		int th, ten, one;
@@ -128,7 +141,7 @@ public class Bucketbottom : MonoBehaviour {
 			Num2.GetComponent<Num>().SetNum();
 		}
 
-
+		//}
 
 		Destroy(collider.gameObject);
 		audio.Play ();

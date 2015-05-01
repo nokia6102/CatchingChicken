@@ -22,7 +22,6 @@ public class Player : MonoBehaviour {
 						if (Input.GetMouseButtonDown (0)) {
 								StartPos = Input.mousePosition;
 								bMouseDown = true;
-							
 								bUseAccerlation=false;
 						}
 
