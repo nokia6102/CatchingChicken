@@ -11,6 +11,7 @@ TextureImporter:
     21300012: Chicken-01_6
     21300014: Chicken-01_7
     21300016: Chicken-01_8
+    21300018: Chicken-01_9
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -59,8 +60,8 @@ TextureImporter:
         y: 579
         width: 596
         height: 1099
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .805398345, y: .0716699883}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Chicken-01_1
       rect:
@@ -70,7 +71,7 @@ TextureImporter:
         width: 225
         height: 228
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Chicken-01_2
       rect:
@@ -80,7 +81,7 @@ TextureImporter:
         width: 228
         height: 228
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Chicken-01_3
       rect:
@@ -89,8 +90,8 @@ TextureImporter:
         y: 592
         width: 596
         height: 1101
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .194601581, y: .0781487823}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Chicken-01_4
       rect:
@@ -100,7 +101,7 @@ TextureImporter:
         width: 903
         height: 963
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Chicken-01_5
       rect:
@@ -110,27 +111,7 @@ TextureImporter:
         width: 272
         height: 308
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Chicken-01_6
-      rect:
-        serializedVersion: 2
-        x: 987
-        y: 56
-        width: 95
-        height: 93
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Chicken-01_7
-      rect:
-        serializedVersion: 2
-        x: 1261
-        y: 56
-        width: 93
-        height: 93
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Chicken-01_8
       rect:
@@ -140,7 +121,17 @@ TextureImporter:
         width: 274
         height: 308
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Chicken-01_9
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 56
+        width: 367
+        height: 93
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
