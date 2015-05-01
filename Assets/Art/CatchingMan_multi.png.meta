@@ -1,0 +1,113 @@
+fileFormatVersion: 2
+guid: 17940727ce710fb489dc0e32c3035f55
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: RightHand
+    21300002: Eyes
+    21300004: LeftHand
+    21300006: Head
+    21300008: LeftFoot
+    21300010: RightFoot
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: RightHand
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 225
+        width: 126
+        height: 174
+      alignment: 9
+      pivot: {x: .903654218, y: .0761631057}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Eyes
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 350
+        width: 105
+        height: 43
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LeftHand
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 225
+        width: 127
+        height: 174
+      alignment: 9
+      pivot: {x: .0861749128, y: .0664197579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Head
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 78
+        width: 258
+        height: 258
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LeftFoot
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 0
+        width: 92
+        height: 62
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RightFoot
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 11
+        width: 72
+        height: 44
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

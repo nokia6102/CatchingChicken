@@ -1,0 +1,146 @@
+fileFormatVersion: 2
+guid: 795237edbd282214098f005796281070
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Chicken-01_0
+    21300002: Chicken-01_1
+    21300004: Chicken-01_2
+    21300006: Chicken-01_3
+    21300008: Chicken-01_4
+    21300010: Chicken-01_5
+    21300012: Chicken-01_6
+    21300014: Chicken-01_7
+    21300016: Chicken-01_8
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Chicken-01_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 579
+        width: 596
+        height: 1099
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Chicken-01_1
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 1399
+        width: 225
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Chicken-01_2
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 1410
+        width: 228
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Chicken-01_3
+      rect:
+        serializedVersion: 2
+        x: 1669
+        y: 592
+        width: 596
+        height: 1101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Chicken-01_4
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 369
+        width: 903
+        height: 963
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Chicken-01_5
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 12
+        width: 272
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Chicken-01_6
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 56
+        width: 95
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Chicken-01_7
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 56
+        width: 93
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Chicken-01_8
+      rect:
+        serializedVersion: 2
+        x: 1986
+        y: 12
+        width: 274
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
