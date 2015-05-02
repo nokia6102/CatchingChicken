@@ -61,9 +61,9 @@ public class Player : MonoBehaviour {
 								
 								if (Mathf.Abs (len) > 0.01f) {
 									if (dir > 0)
-										bRight = true;
-									if (dir < 0)
 										bRight = false;
+									if (dir < 0)
+										bRight = true;
 									anim.SetBool ("bRun", true);
 								}
 								
@@ -95,9 +95,9 @@ public class Player : MonoBehaviour {
 		if (Mathf.Abs (len) > 0.01f) 
 		        {
 						if (p2.x > p1.x)
-								bRight = true;
-						if (p2.x < p1.x)
 								bRight = false;
+						if (p2.x < p1.x)
+								bRight = true;
 						anim.SetBool("bRun",true);
 	
 				}

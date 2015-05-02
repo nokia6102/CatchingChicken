@@ -12,7 +12,7 @@ public class Bucketbottom : MonoBehaviour {
 	public GameObject Point;
 
 	int LifePoint=100;
-	GameObject LifeBar;
+	GameObject LifeBar,LifeBarF;
 
 
 	// Use this for initialization
@@ -33,6 +33,7 @@ public class Bucketbottom : MonoBehaviour {
 		Boom = GameObject.Find ("Boom");
 
 		LifeBar = GameObject.Find ("LifeBar");
+		LifeBarF = GameObject.Find ("LifeBarFront");
 
 	}
 	
@@ -78,8 +79,10 @@ public class Bucketbottom : MonoBehaviour {
 		{
 			print ("X" + collider.gameObject.name.Contains("Mcase"));
 			print ("M " +collider.gameObject.name);
-			LifePoint=100;
+			LifePoint+=10;
 			LifeBar.transform.localScale = new Vector3((float)LifePoint/100, LifeBar.transform.localScale.y, LifeBar.transform.localScale.z);
+		if(LifePoint>100)	LifeBarF.transform.localScale = new Vector3((float)LifePoint/100, LifeBar.transform.localScale.y, LifeBar.transform.localScale.z);
+
 			GameObject.Destroy(collider.gameObject);
 			return;
 		}
